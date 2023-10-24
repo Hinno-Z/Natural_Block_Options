@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Slab Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:mud_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:mud"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Carpet Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:sand_carpet"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:sand"
+  },
+  "show_notification": true
+}

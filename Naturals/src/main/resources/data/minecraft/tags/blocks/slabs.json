@@ -1,0 +1,22 @@
+{
+  "values": [
+    "naturals:dirt_path_slab",
+    "naturals:dirt_slab",
+    "naturals:rooted_dirt_slab",
+    "naturals:packed_mud_slab",
+    "naturals:coarse_dirt_slab",
+    "naturals:moss_slab",
+    "naturals:grass_slab",
+    "naturals:sand_slab",
+    "naturals:gravel_slab",
+    "naturals:clay_slab",
+    "naturals:mycelium_slab",
+    "naturals:mud_slab",
+    "naturals:red_sand_slab",
+    "naturals:nether_wart_slab",
+    "naturals:warped_wart_slab",
+    "naturals:podzol_slab",
+    "naturals:soul_sand_slab",
+    "naturals:soul_soil_slab"
+  ]
+}

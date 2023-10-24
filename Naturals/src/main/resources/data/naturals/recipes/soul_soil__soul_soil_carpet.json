@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "natural carpets",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_soil"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "naturals:soul_soil_carpet"
+  }
+}

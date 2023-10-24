@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "naturals:block/grass_slab"
+    },
+    "type=double": {
+      "model": "naturals:block/grass_full_block"
+    },
+    "type=top": {
+      "model": "naturals:block/grass_slab_top"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "naturals:block/podzol_slab"
+    },
+    "type=double": {
+      "model": "naturals:block/podzol_full_block"
+    },
+    "type=top": {
+      "model": "naturals:block/podzol_slab_top"
+    }
+  }
+}

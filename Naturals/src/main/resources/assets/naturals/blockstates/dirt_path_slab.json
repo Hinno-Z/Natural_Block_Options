@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "naturals:block/dirt_path_slab"
+    },
+    "type=double": {
+      "model": "naturals:block/dirt_path_full_block"
+    },
+    "type=top": {
+      "model": "naturals:block/dirt_path_slab_top"
+    }
+  }
+}

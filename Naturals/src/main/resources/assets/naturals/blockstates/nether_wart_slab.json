@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "naturals:block/nether_wart_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/nether_wart_block"
+    },
+    "type=top": {
+      "model": "naturals:block/nether_wart_slab_top"
+    }
+  }
+}

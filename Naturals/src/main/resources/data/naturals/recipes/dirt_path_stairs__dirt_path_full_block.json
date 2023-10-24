@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "Stairs Rewind",
+  "ingredients": [
+    {
+      "item": "naturals:dirt_path_stairs"
+    }
+  ],
+  "result": {
+    "item": "naturals:dirt_path_full_block"
+  }
+}

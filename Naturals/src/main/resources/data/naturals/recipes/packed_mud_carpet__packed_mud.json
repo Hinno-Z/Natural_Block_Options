@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Carpet Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:packed_mud_carpet"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:packed_mud"
+  },
+  "show_notification": true
+}

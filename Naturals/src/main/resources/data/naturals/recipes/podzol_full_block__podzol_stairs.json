@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group" : "natural stairs",
+  "key": {
+    "#": {
+      "item": "naturals:podzol_full_block"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "naturals:podzol_stairs"
+  },
+  "show_notification": true
+}

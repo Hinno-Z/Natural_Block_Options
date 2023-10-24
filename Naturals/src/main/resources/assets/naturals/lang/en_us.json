@@ -1,0 +1,71 @@
+{
+  "creativetab.nat_tab" : "Natural Block Variants",
+
+
+  "block.naturals.dirt_path_full_block" : "Dirt Path Full Block",
+  "block.naturals.podzol_full_block" : "Podzol Full Block",
+  "block.naturals.mycelium_full_block" : "Mycelium Full Block",
+  "block.naturals.grass_full_block" : "Grass Full Block",
+
+
+  "block.naturals.dirt_path_carpet" : "Dirt Path Carpet",
+  "block.naturals.dirt_carpet" : "Dirt Carpet",
+  "block.naturals.rooted_dirt_carpet" : "Rooted Dirt Carpet",
+  "block.naturals.packed_mud_carpet" : "Packed Mud Carpet",
+  "block.naturals.coarse_dirt_carpet" : "Coarse Dirt Carpet",
+  "block.naturals.grass_carpet" : "Grass Carpet",
+  "block.naturals.sand_carpet" : "Sand Carpet",
+  "block.naturals.gravel_carpet" : "Gravel Carpet",
+
+  "block.naturals.clay_carpet" : "Clay Carpet",
+  "block.naturals.mycelium_carpet" : "Mycelium Carpet",
+  "block.naturals.mud_carpet" : "Mud Carpet",
+  "block.naturals.red_sand_carpet" : "Red Sand Carpet",
+  "block.naturals.nether_wart_carpet" : "Nether Wart Carpet",
+  "block.naturals.warped_wart_carpet" : "Warped Wart Carpet",
+  "block.naturals.podzol_carpet" : "Podzol Carpet",
+  "block.naturals.soul_sand_carpet" : "Soul Sand Carpet",
+  "block.naturals.soul_soil_carpet" : "Soul Soil Carpet",
+
+  
+  "block.naturals.dirt_path_slab" : "Dirt Path Slab",
+  "block.naturals.dirt_slab" : "Dirt Slab",
+  "block.naturals.rooted_dirt_slab" : "Rooted Dirt Slab",
+  "block.naturals.packed_mud_slab" : "Packed Mud Slab",
+  "block.naturals.coarse_dirt_slab" : "Coarse Dirt Slab",
+  "block.naturals.grass_slab" : "Grass Slab",
+  "block.naturals.moss_slab" : "Moss Slab",
+  "block.naturals.sand_slab" : "Sand Slab",
+  "block.naturals.gravel_slab" : "Gravel Slab",
+
+  "block.naturals.clay_slab" : "Clay Slab",
+  "block.naturals.mycelium_slab" : "Mycelium Slab",
+  "block.naturals.mud_slab" : "Mud Slab",
+  "block.naturals.red_sand_slab" : "Red Sand Slab",
+  "block.naturals.nether_wart_slab" : "Nether Wart Slab",
+  "block.naturals.warped_wart_slab" : "Warped Wart Slab",
+  "block.naturals.podzol_slab" : "Podzol Slab",
+  "block.naturals.soul_sand_slab" : "Soul Sand Slab",
+  "block.naturals.soul_soil_slab" : "Soul Soil Slab",
+
+
+  "block.naturals.dirt_path_stairs" : "Dirt Path stairs",
+  "block.naturals.dirt_stairs" : "Dirt stairs",
+  "block.naturals.rooted_dirt_stairs" : "Rooted Dirt stairs",
+  "block.naturals.packed_mud_stairs" : "Packed Mud stairs",
+  "block.naturals.coarse_dirt_stairs" : "Coarse Dirt stairs",
+  "block.naturals.grass_stairs" : "Grass stairs",
+  "block.naturals.moss_stairs" : "Moss stairs",
+  "block.naturals.sand_stairs" : "Sand stairs",
+  "block.naturals.gravel_stairs" : "Gravel stairs",
+
+  "block.naturals.clay_stairs" : "Clay stairs",
+  "block.naturals.mycelium_stairs" : "Mycelium stairs",
+  "block.naturals.mud_stairs" : "Mud stairs",
+  "block.naturals.red_sand_stairs" : "Red Sand stairs",
+  "block.naturals.nether_wart_stairs" : "Nether Wart stairs",
+  "block.naturals.warped_wart_stairs" : "Warped Wart stairs",
+  "block.naturals.podzol_stairs" : "Podzol stairs",
+  "block.naturals.soul_sand_stairs" : "Soul Sand stairs",
+  "block.naturals.soul_soil_stairs" : "Soul Soil stairs"
+}

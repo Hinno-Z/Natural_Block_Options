@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Carpet Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:dirt_carpet"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:dirt"
+  },
+  "show_notification": true
+}

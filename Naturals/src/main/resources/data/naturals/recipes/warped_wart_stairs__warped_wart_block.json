@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "Stairs Rewind",
+  "ingredients": [
+    {
+      "item": "naturals:warped_wart_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:warped_wart_block"
+  }
+}

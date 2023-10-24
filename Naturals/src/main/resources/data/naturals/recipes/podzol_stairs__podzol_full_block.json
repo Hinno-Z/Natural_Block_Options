@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "Stairs Rewind",
+  "ingredients": [
+    {
+      "item": "naturals:podzol_stairs"
+    }
+  ],
+  "result": {
+    "item": "naturals:podzol_full_block"
+  }
+}

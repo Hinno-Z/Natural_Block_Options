@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group" : "natural slabs",
+  "key": {
+    "#": {
+      "item": "minecraft:mud"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "naturals:mud_slab"
+  },
+  "show_notification": true
+}

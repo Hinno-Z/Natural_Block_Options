@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group" : "natural slabs",
+  "key": {
+    "#": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "naturals:dirt_slab"
+  },
+  "show_notification": true
+}

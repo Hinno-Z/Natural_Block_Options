@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "natural carpets",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "naturals:gravel_carpet"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group" : "natural stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:packed_mud"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "naturals:packed_mud_stairs"
+  },
+  "show_notification": true
+}

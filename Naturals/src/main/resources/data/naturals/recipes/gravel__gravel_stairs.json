@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group" : "natural stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "naturals:gravel_stairs"
+  },
+  "show_notification": true
+}

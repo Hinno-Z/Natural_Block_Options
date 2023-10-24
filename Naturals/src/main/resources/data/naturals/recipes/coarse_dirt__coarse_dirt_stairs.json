@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group" : "natural stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:coarse_dirt"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "naturals:coarse_dirt_stairs"
+  },
+  "show_notification": true
+}

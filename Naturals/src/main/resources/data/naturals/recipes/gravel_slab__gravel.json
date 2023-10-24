@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Slab Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:gravel_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:gravel"
+  },
+  "show_notification": true
+}

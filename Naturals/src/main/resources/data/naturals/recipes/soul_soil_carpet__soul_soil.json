@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Carpet Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:soul_soil_carpet"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:soul_soil"
+  },
+  "show_notification": true
+}

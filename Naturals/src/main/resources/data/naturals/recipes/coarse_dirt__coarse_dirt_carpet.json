@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "natural carpets",
+  "ingredients": [
+    {
+      "item": "minecraft:coarse_dirt"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "naturals:coarse_dirt_carpet"
+  }
+}

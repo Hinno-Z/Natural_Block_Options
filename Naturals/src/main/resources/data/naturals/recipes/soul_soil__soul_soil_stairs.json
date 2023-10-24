@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group" : "natural stairs",
+  "key": {
+    "#": {
+      "item": "minecraft:soul_soil"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "naturals:soul_soil_stairs"
+  },
+  "show_notification": true
+}

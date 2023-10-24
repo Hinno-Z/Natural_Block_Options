@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Slab Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:coarse_dirt_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:coarse_dirt"
+  },
+  "show_notification": true
+}

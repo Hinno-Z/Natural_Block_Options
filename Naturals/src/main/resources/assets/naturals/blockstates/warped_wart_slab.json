@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "naturals:block/warped_wart_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/warped_wart_block"
+    },
+    "type=top": {
+      "model": "naturals:block/warped_wart_slab_top"
+    }
+  }
+}

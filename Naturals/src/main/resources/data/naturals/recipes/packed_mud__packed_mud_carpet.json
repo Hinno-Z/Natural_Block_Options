@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "natural carpets",
+  "ingredients": [
+    {
+      "item": "minecraft:packed_mud"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "naturals:packed_mud_carpet"
+  }
+}

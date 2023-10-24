@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "Stairs Rewind",
+  "ingredients": [
+    {
+      "item": "naturals:clay_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:clay"
+  }
+}

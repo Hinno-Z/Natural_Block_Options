@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Slab Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:moss_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:moss_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "natural carpets",
+  "ingredients": [
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "naturals:red_sand_carpet"
+  }
+}

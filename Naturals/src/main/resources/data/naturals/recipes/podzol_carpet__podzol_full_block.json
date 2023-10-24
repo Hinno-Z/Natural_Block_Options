@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group" : "Carpet Rewind",
+  "key": {
+    "#": {
+      "item": "naturals:podzol_carpet"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "naturals:podzol_full_block"
+  },
+  "show_notification": true
+}

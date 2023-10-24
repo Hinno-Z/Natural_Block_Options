@@ -1,0 +1,21 @@
+{
+  "values": [
+    "naturals:mycelium_carpet",
+    "naturals:dirt_path_carpet",
+    "naturals:podzol_carpet",
+    "naturals:dirt_carpet",
+    "naturals:nether_wart_carpet",
+    "naturals:warped_wart_carpet",
+    "naturals:coarse_dirt_carpet",
+    "naturals:rooted_dirt_carpet",
+    "naturals:clay_carpet",
+    "naturals:grass_carpet",
+    "naturals:gravel_carpet",
+    "naturals:mud_carpet",
+    "naturals:packed_mud_carpet",
+    "naturals:soul_sand_carpet",
+    "naturals:soul_soil_carpet",
+    "naturals:sand_carpet",
+    "naturals:red_sand_carpet"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "natural carpets",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "naturals:nether_wart_carpet"
+  }
+}

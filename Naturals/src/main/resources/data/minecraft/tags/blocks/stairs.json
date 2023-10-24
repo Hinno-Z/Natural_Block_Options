@@ -1,0 +1,22 @@
+{
+  "values": [
+    "naturals:dirt_path_stairs",
+    "naturals:dirt_stairs",
+    "naturals:rooted_dirt_stairs",
+    "naturals:packed_mud_stairs",
+    "naturals:coarse_dirt_stairs",
+    "naturals:moss_stairs",
+    "naturals:grass_stairs",
+    "naturals:sand_stairs",
+    "naturals:gravel_stairs",
+    "naturals:clay_stairs",
+    "naturals:mycelium_stairs",
+    "naturals:mud_stairs",
+    "naturals:red_sand_stairs",
+    "naturals:nether_wart_stairs",
+    "naturals:warped_wart_stairs",
+    "naturals:podzol_stairs",
+    "naturals:soul_sand_stairs",
+    "naturals:soul_soil_stairs"
+  ]
+}

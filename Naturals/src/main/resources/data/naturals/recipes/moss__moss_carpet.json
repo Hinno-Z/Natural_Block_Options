@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group" : "natural carpets",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:moss_carpet"
+  }
+}
