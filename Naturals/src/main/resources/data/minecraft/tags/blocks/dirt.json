@@ -1,0 +1,25 @@
+{
+  "values": [
+    "naturals:mycelium_full_block",
+    "naturals:podzol_full_block",
+    "naturals:grass_full_block",
+
+    "naturals:dirt_slab",
+    "naturals:rooted_dirt_slab",
+    "naturals:coarse_dirt_slab",
+    "naturals:moss_slab",
+    "naturals:grass_slab",
+    "naturals:mud_slab",
+    "naturals:podzol_slab",
+    "naturals:mycelium_slab",
+
+    "naturals:dirt_stairs",
+    "naturals:rooted_dirt_stairs",
+    "naturals:coarse_dirt_stairs",
+    "naturals:moss_stairs",
+    "naturals:grass_stairs",
+    "naturals:mycelium_stairs",
+    "naturals:mud_stairs",
+    "naturals:podzol_stairs"
+  ]
+}
