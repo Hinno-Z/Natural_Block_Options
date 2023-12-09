@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/NaturalBlockOptions-v1.0.0-1.20.iml" filepath="$PROJECT_DIR$/.idea/NaturalBlockOptions-v1.0.0-1.20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NaturalBlockOptions-v1.0.0-1.20.Naturals.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NaturalBlockOptions-v1.0.0-1.20.Naturals.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NaturalBlockOptions-v1.0.0-1.20.Naturals.test.iml" filepath="$PROJECT_DIR$/.idea/modules/NaturalBlockOptions-v1.0.0-1.20.Naturals.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Naturals.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Naturals.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Naturals.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Naturals.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.hinno.naturals.Naturals.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.hinno.naturals.Naturals.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.hinno.naturals.Naturals.test.iml" filepath="$PROJECT_DIR$/.idea/modules/net.hinno.naturals.Naturals.test.iml" />
+    </modules>
+  </component>
+</project>
