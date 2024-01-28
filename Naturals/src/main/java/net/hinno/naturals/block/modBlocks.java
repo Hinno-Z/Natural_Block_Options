@@ -27,121 +27,117 @@ public class modBlocks {
 
     //custom full texture blocks:
     public static final RegistryObject<Block> DIRT_PATH_FULL_BLOCK = registerBlock ("dirt_path_full_block",
-            ()->new Block (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new Block (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.DIRT_PATH.defaultMapColor ())));
     public static final RegistryObject<Block> PODZOL_FULL_BLOCK = registerBlock ("podzol_full_block",
-            ()->new Block (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new Block (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.PODZOL.defaultMapColor ())));
     public static final RegistryObject<Block> MYCELIUM_FULL_BLOCK = registerBlock ("mycelium_full_block",
-            ()->new Block (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
-    //remember to add custom grass block!!
+            ()->new Block (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.MYCELIUM.defaultMapColor ())));
 
     //carpet blocks:
     public static final RegistryObject<Block> MYCELIUM_CARPET = registerBlock ("mycelium_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.MOSS_CARPET)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.MOSS_CARPET).mapColor (Blocks.MYCELIUM.defaultMapColor ())));
     public static final RegistryObject<Block> PODZOL_CARPET = registerBlock ("podzol_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.MOSS_CARPET)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.MOSS_CARPET).mapColor (Blocks.PODZOL.defaultMapColor ())));
     public static final RegistryObject<Block> DIRT_PATH_CARPET = registerBlock ("dirt_path_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRASS)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRASS).mapColor (Blocks.DIRT_PATH.defaultMapColor ())));
     public static final RegistryObject<Block> DIRT_CARPET = registerBlock ("dirt_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRASS)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRASS).mapColor (Blocks.DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> NETHER_WART_CARPET = registerBlock ("nether_wart_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.WART_BLOCK)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.WART_BLOCK).mapColor (Blocks.NETHER_WART_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> WARPED_WART_CARPET = registerBlock ("warped_wart_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.WART_BLOCK)));
-    //remember to add custom grass block!!
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.WART_BLOCK).mapColor (Blocks.WARPED_WART_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> COARSE_DIRT_CARPET = registerBlock ("coarse_dirt_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRASS)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRASS).mapColor (Blocks.COARSE_DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> ROOTED_DIRT_CARPET = registerBlock ("rooted_dirt_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.ROOTED_DIRT)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.ROOTED_DIRT).mapColor (Blocks.ROOTED_DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> CLAY_CARPET = registerBlock ("clay_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRAVEL)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRAVEL).mapColor (Blocks.CLAY.defaultMapColor ())));
     public static final RegistryObject<Block> GRAVEL_CARPET = registerBlock ("gravel_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRAVEL)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.GRAVEL).mapColor (Blocks.GRAVEL.defaultMapColor ())));
     public static final RegistryObject<Block> MUD_CARPET = registerBlock ("mud_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.MUD)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.MUD).mapColor (Blocks.MUD.defaultMapColor ())));
     public static final RegistryObject<Block> PACKED_MUD_CARPET = registerBlock ("packed_mud_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.PACKED_MUD)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.PACKED_MUD).mapColor (Blocks.PACKED_MUD.defaultMapColor ())));
     public static final RegistryObject<Block> SOUL_SAND_CARPET = registerBlock ("soul_sand_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.SOUL_SAND)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.SOUL_SAND).mapColor (Blocks.SOUL_SAND.defaultMapColor ())));
     public static final RegistryObject<Block> SOUL_SOIL_CARPET = registerBlock ("soul_soil_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.SOUL_SOIL)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.SOUL_SOIL).mapColor (Blocks.SOUL_SOIL.defaultMapColor ())));
     public static final RegistryObject<Block> SAND_CARPET = registerBlock ("sand_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.SAND)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.SAND).mapColor (Blocks.SAND.defaultMapColor ())));
     public static final RegistryObject<Block> RED_SAND_CARPET = registerBlock ("red_sand_carpet",
-            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.SAND)));
+            ()->new CarpetBlock (BlockBehaviour.Properties.copy (Blocks.BLACK_CARPET).sound (SoundType.SAND).mapColor (Blocks.RED_SAND.defaultMapColor ())));
     //slab blocks:
     public static final RegistryObject<Block> DIRT_PATH_SLAB = registerBlock ("dirt_path_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.DIRT_PATH.defaultMapColor ())));
     public static final RegistryObject<Block> DIRT_SLAB = registerBlock ("dirt_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> ROOTED_DIRT_SLAB = registerBlock ("rooted_dirt_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.ROOTED_DIRT)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.ROOTED_DIRT).mapColor (Blocks.ROOTED_DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> PACKED_MUD_SLAB = registerBlock ("packed_mud_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.PACKED_MUD)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.PACKED_MUD).mapColor (Blocks.PACKED_MUD.defaultMapColor ())));
     public static final RegistryObject<Block> COARSE_DIRT_SLAB = registerBlock ("coarse_dirt_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
-    //remember to add custom grass block!!
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.COARSE_DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> MOSS_SLAB = registerBlock ("moss_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.MOSS)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.MOSS).mapColor (Blocks.MOSS_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> SAND_SLAB = registerBlock ("sand_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SAND)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SAND).mapColor (Blocks.SAND.defaultMapColor ())));
     public static final RegistryObject<Block> GRAVEL_SLAB = registerBlock ("gravel_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRAVEL)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRAVEL).mapColor (Blocks.GRAVEL.defaultMapColor ())));
     public static final RegistryObject<Block> CLAY_SLAB = registerBlock ("clay_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.CLAY.defaultMapColor ())));
     public static final RegistryObject<Block> MYCELIUM_SLAB = registerBlock ("mycelium_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.MYCELIUM.defaultMapColor ())));
     public static final RegistryObject<Block> MUD_SLAB = registerBlock ("mud_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.MUD)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.MUD).mapColor (Blocks.MUD.defaultMapColor ())));
     public static final RegistryObject<Block> RED_SAND_SLAB = registerBlock ("red_sand_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SAND)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SAND).mapColor (Blocks.RED_SAND.defaultMapColor ())));
     public static final RegistryObject<Block> NETHER_WART_SLAB = registerBlock ("nether_wart_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.WART_BLOCK)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.WART_BLOCK).mapColor (Blocks.NETHER_WART_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> WARPED_WART_SLAB = registerBlock ("warped_wart_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.WART_BLOCK)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.WART_BLOCK).mapColor (Blocks.WARPED_WART_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> PODZOL_SLAB = registerBlock ("podzol_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.PODZOL.defaultMapColor ())));
     public static final RegistryObject<Block> SOUL_SAND_SLAB = registerBlock ("soul_sand_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SOUL_SAND)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SOUL_SAND).mapColor (Blocks.SOUL_SAND.defaultMapColor ())));
     public static final RegistryObject<Block> SOUL_SOIL_SLAB = registerBlock ("soul_soil_slab",
-            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SOUL_SOIL)));
+            ()->new SlabBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SOUL_SOIL).mapColor (Blocks.SOUL_SOIL.defaultMapColor ())));
     //Stairs Blocks:
     public static final RegistryObject<Block> DIRT_PATH_STAIRS = registerBlock ("dirt_path_stairs",
-            ()->new StairBlock (()->modBlocks.DIRT_PATH_FULL_BLOCK.get ().defaultBlockState (), BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new StairBlock (()->modBlocks.DIRT_PATH_FULL_BLOCK.get ().defaultBlockState (), BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.DIRT_PATH.defaultMapColor ())));
     public static final RegistryObject<Block> DIRT_STAIRS = registerBlock ("dirt_stairs",
-            ()->new StairBlock (Blocks.DIRT::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new StairBlock (Blocks.DIRT::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> ROOTED_DIRT_STAIRS = registerBlock ("rooted_dirt_stairs",
-            ()->new StairBlock (Blocks.ROOTED_DIRT::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.ROOTED_DIRT)));
+            ()->new StairBlock (Blocks.ROOTED_DIRT::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.ROOTED_DIRT).mapColor (Blocks.ROOTED_DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> PACKED_MUD_STAIRS = registerBlock ("packed_mud_stairs",
-            ()->new StairBlock (Blocks.PACKED_MUD::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.PACKED_MUD)));
+            ()->new StairBlock (Blocks.PACKED_MUD::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.PACKED_MUD).mapColor (Blocks.PACKED_MUD.defaultMapColor ())));
     public static final RegistryObject<Block> COARSE_DIRT_STAIRS = registerBlock ("coarse_dirt_stairs",
-            ()->new StairBlock (Blocks.COARSE_DIRT::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new StairBlock (Blocks.COARSE_DIRT::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.COARSE_DIRT.defaultMapColor ())));
     public static final RegistryObject<Block> MOSS_STAIRS = registerBlock ("moss_stairs",
-            ()->new StairBlock (Blocks.MOSS_BLOCK::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.MOSS)));
+            ()->new StairBlock (Blocks.MOSS_BLOCK::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.MOSS).mapColor (Blocks.MOSS_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> SAND_STAIRS = registerBlock ("sand_stairs",
-            ()->new StairBlock (Blocks.SAND::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SAND)));
+            ()->new StairBlock (Blocks.SAND::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SAND).mapColor (Blocks.SAND.defaultMapColor ())));
     public static final RegistryObject<Block> GRAVEL_STAIRS = registerBlock ("gravel_stairs",
-            ()->new StairBlock (Blocks.GRAVEL::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new StairBlock (Blocks.GRAVEL::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.GRAVEL.defaultMapColor ())));
     public static final RegistryObject<Block> CLAY_STAIRS = registerBlock ("clay_stairs",
-            ()->new StairBlock (Blocks.CLAY::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new StairBlock (Blocks.CLAY::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.CLAY.defaultMapColor ())));
     public static final RegistryObject<Block> MYCELIUM_STAIRS = registerBlock ("mycelium_stairs",
-            ()->new StairBlock (()->modBlocks.MYCELIUM_FULL_BLOCK.get ().defaultBlockState (), BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new StairBlock (()->modBlocks.MYCELIUM_FULL_BLOCK.get ().defaultBlockState (), BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.MYCELIUM.defaultMapColor ())));
     public static final RegistryObject<Block> MUD_STAIRS = registerBlock ("mud_stairs",
-            ()->new StairBlock (Blocks.MUD::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.MUD)));
+            ()->new StairBlock (Blocks.MUD::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.MUD).mapColor (Blocks.MUD.defaultMapColor ())));
     public static final RegistryObject<Block> RED_SAND_STAIRS = registerBlock ("red_sand_stairs",
-            ()->new StairBlock (Blocks.RED_SAND::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SAND)));
+            ()->new StairBlock (Blocks.RED_SAND::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SAND).mapColor (Blocks.RED_SAND.defaultMapColor ())));
     public static final RegistryObject<Block> NETHER_WART_STAIRS = registerBlock ("nether_wart_stairs",
-            ()->new StairBlock (Blocks.NETHER_WART_BLOCK::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.WART_BLOCK)));
+            ()->new StairBlock (Blocks.NETHER_WART_BLOCK::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.WART_BLOCK).mapColor (Blocks.NETHER_WART_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> WARPED_WART_STAIRS = registerBlock ("warped_wart_stairs",
-            ()->new StairBlock (Blocks.WARPED_WART_BLOCK::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.WART_BLOCK)));
+            ()->new StairBlock (Blocks.WARPED_WART_BLOCK::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.WART_BLOCK).mapColor (Blocks.WARPED_WART_BLOCK.defaultMapColor ())));
     public static final RegistryObject<Block> PODZOL_STAIRS = registerBlock ("podzol_stairs",
-            ()->new StairBlock (()->modBlocks.PODZOL_FULL_BLOCK.get ().defaultBlockState (), BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS)));
+            ()->new StairBlock (()->modBlocks.PODZOL_FULL_BLOCK.get ().defaultBlockState (), BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.GRASS).mapColor (Blocks.PODZOL.defaultMapColor ())));
     public static final RegistryObject<Block> SOUL_SAND_STAIRS = registerBlock ("soul_sand_stairs",
-            ()->new StairBlock (Blocks.SOUL_SAND::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SOUL_SAND)));
+            ()->new StairBlock (Blocks.SOUL_SAND::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SOUL_SAND).mapColor (Blocks.SOUL_SAND.defaultMapColor ())));
     public static final RegistryObject<Block> SOUL_SOIL_STAIRS = registerBlock ("soul_soil_stairs",
-            ()->new StairBlock (Blocks.SOUL_SOIL::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SOUL_SOIL)));
+            ()->new StairBlock (Blocks.SOUL_SOIL::defaultBlockState, BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).sound (SoundType.SOUL_SOIL).mapColor (Blocks.SOUL_SOIL.defaultMapColor ())));
 
     //grass blocks
-
     public static final RegistryObject<Block> GRASS_FULL_BLOCK = registerBlock ("grass_full_block",
             ()->new tintBlock (BlockBehaviour.Properties.copy (Blocks.GRASS_BLOCK).strength (0.6F).sound (SoundType.GRASS)));
     public static final RegistryObject<Block> GRASS_STAIRS = registerBlock ("grass_stairs",
